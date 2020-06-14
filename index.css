@@ -1,0 +1,39 @@
+* {
+    background-color: #e6dcdb;
+}
+
+header {
+    margin-top: 30px;
+    width: 100%;
+}
+
+header .container{
+    width: 600px;
+    font-size: 72px;
+    font-weight: bold;
+    padding: 15px 24px;
+    border-radius: 33px;
+    background: #e6dcdb;
+    box-shadow:  21px 21px 42px #bfb7b6, 
+                 -21px -21px 42px #ffffff;    
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+
+
+header :hover{
+    border-radius: 33px;
+background: linear-gradient(145deg, #f6ebea, #cfc6c5);
+box-shadow:  21px 21px 42px #bfb7b6, 
+             -21px -21px 42px #ffffff;
+}
+
+header :active{
+    border-radius: 33px;
+background: #e6dcdb;
+box-shadow: inset 21px 21px 42px #bfb7b6, 
+            inset -21px -21px 42px #ffffff;
+}
